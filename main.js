@@ -1,11 +1,11 @@
-$( "i.fas.fa-bars" ).click(function() {
+$("i.fas.fa-bars").click(function() {
   $(".hamburger-menu").fadeIn(500);
 });
 
-$("i.fas.fa-times").click( function() {
+$("i.fas.fa-times").click(function() {
   $(".hamburger-menu").fadeOut("3000");
-var iconaUscita = $("#icona-uscita");
-iconaUscita.addClass("rotate-center");
+  var iconaUscita = $("#icona-uscita");
+  iconaUscita.addClass("rotate-center");
 });
 
 
