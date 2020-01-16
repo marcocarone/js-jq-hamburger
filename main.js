@@ -1,5 +1,7 @@
 $("i.fas.fa-bars").click(function() {
   $(".hamburger-menu").fadeIn(500);
+  var iconaUscita = $("#icona-uscita");
+  iconaUscita.removeClass("rotate-center");
 });
 
 $("i.fas.fa-times").click(function() {
