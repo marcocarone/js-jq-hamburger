@@ -3,9 +3,9 @@ $( "i.fas.fa-bars" ).click(function() {
 });
 
 $("i.fas.fa-times").click( function() {
-  $(".hamburger-menu").fadeOut("3000", function(){
-    $("#icona-uscita").addClass("rotate-center");
-  });
+  $(".hamburger-menu").fadeOut("3000");
+var iconaUscita = $("#icona-uscita");
+iconaUscita.addClass("rotate-center");
 });
 
 
